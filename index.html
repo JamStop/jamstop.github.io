@@ -5,28 +5,39 @@
 	</head>
 
 	<body>
-		<header>
-			<nav>
-				<ul>
-					<li><a href="./index.html"> Home </a></li>
-					<li><a href="./gallery.html"> Gallery </a></li>
-					<li><a href="./gallery.html"> Contact </a></li>
-				</ul>
+		<div class="main-wrapper">
+			<header>
+				<nav class="nav">
+					<ul>
+						<li class="nav-item"><a href="./index.html">Home</a></li>
+						<li class="nav-item"><a href="./gallery.html">Gallery</a></li>
+						<li class="nav-item"><a href="./gallery.html">Contact</a></li>
+					</ul>
 
-			</nav>
-		</header>
+				</nav>
+			</header>
 
-		<section>
-			<img src="https://goo.gl/RG3GtK" />
-			<img src="http://placekitten.com/g/600/600" />
-			<h1 class="blue">Hello I'm Kitty</h1>
-			<h2>I love creating code</h2>
-		</section>
+			<div class="flex column info">
+				<section>
+					<div class="flex column">
+						<img class="logo" src="https://goo.gl/RG3GtK"/>
+						<img class="main-img circle img_wrapper" src="http://placekitten.com/g/600/600"/>
+						<div class="titles flex column">
+							<h1 class="blue">Hello I'm Kitty</h1>
+							<h2>I love creating code</h2>
+						</div>
+					</div>
+				</section>
+			</div>
+		</div>
 
-
-		<footer>
-			<h3> About </h3>
-			<a href="./resume.pdf" download="Kitty's Resume"> Download My Resume </a>
+		<footer class="footer">
+			<div class="flex">
+				<div class="line"></div>
+				<h3 class="footer-sub title">About</h3>
+				<div class="line"></div>
+			</div>
+			<a href="./resume.pdf" download="Kitty's Resume" class="button">Download CV</a>
 		</footer>
 	</body>
 </html>
