@@ -1,0 +1,33 @@
+<html>
+	<head>
+		<title>Contact Us</title>
+		<link rel="stylesheet" type="text/css" href="../resources/css/portfolio.css">
+
+	</head>
+
+	<body class="default">
+		<header>
+			<nav class="nav">
+				<ul>
+					<li class="nav-item"><a href="./index.html">Home</a></li>
+					<li class="nav-item"><a href="./gallery.html">Gallery</a></li>
+					<li class="nav-item"><a href="./gallery.html">Contact</a></li>
+				</ul>
+
+			</nav>
+		</header>
+
+        <section>
+            <h1 class="title flex column">Contact Kitty</h1>
+            <form class="flex column">
+                <input type="email" placeholder="Your Email" required class="email input-field" name="_replyto"/>
+                <input type="hidden" name="_subject" value="Email from Kitty's Portfolio!" />
+                <input type="text" name="_gotcha" style="display:none" />
+                <textarea rows="10" cols="20" placeholder="Write Something Nice!" required class="message input-field"></textarea>
+                <button type="submit" class="button">Send</button>
+            </form>
+        </section>
+        <script src="../resources/vendor/jquery-2.2.0.min.js"></script>
+        <script src="../resources/js/contact.js"></script>
+	</body>
+</html>
