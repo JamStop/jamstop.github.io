@@ -5,6 +5,10 @@ $( document ).ready(function() {
        lastRow : 'justify',
        margins : 3,
        randomize: true
+     }).on('jg.complete', function () {
+         $('#gallery a').swipebox({
+           hideBarsDelay : false
+         });
      });
    });
 
