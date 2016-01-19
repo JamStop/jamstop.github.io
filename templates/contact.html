@@ -1,9 +1,8 @@
 <html>
 	<head>
-		<title>Make School's Gallery</title>
+		<title>Contact Us</title>
 		<link rel="stylesheet" type="text/css" href="../resources/css/portfolio.css">
-        <link rel="stylesheet" type="text/css" href="../resources/vendor/justifiedGallery.min/justifiedGallery.min.css">
-        <link rel="stylesheet" type="text/css" href="../resources/vendor/swipebox/css/swipebox.min.css">
+
 	</head>
 
 	<body class="default">
@@ -18,9 +17,17 @@
 			</nav>
 		</header>
 
-		<script src="../resources/vendor/jquery-2.2.0.min.js"></script>
-        <script src="../resources/vendor/justifiedGallery.min/jquery.justifiedGallery.min.js"></script>
-        <script src="../resources/vendor/swipebox/js/jquery.swipebox.min.js"></script>
-        <script src="../resources/js/portfolio.js"></script>
+        <section>
+            <h1 class="title flex column">Contact Kitty</h1>
+            <form class="flex column">
+                <input type="email" placeholder="Your Email" required class="email input-field" name="_replyto"/>
+                <input type="hidden" name="_subject" value="Email from Kitty's Portfolio!" />
+                <input type="text" name="_gotcha" style="display:none" />
+                <textarea rows="10" cols="20" placeholder="Write Something Nice!" required class="message input-field"></textarea>
+                <button type="submit" class="button">Send</button>
+            </form>
+        </section>
+        <script src="../resources/vendor/jquery-2.2.0.min.js"></script>
+        <script src="../resources/js/contact.js"></script>
 	</body>
 </html>
