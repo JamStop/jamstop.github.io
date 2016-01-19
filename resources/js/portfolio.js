@@ -1,5 +1,12 @@
 
-
+$( document ).ready(function() {
+     $("#gallery").justifiedGallery({
+       rowHeight : 200,
+       lastRow : 'justify',
+       margins : 3,
+       randomize: true
+     });
+   });
 
 
 // document.onreadystatechange = function () {
